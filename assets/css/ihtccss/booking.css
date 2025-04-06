@@ -1,0 +1,243 @@
+@charset "utf-8";
+/* CSS Document */
+
+.button
+{
+background:url(../../images/marker2.png) !important;
+width:65px !important;
+height:65px !important;
+border:0px !important;
+}
+.button:hover
+{
+	background:url(../../images/marker1.png) !important;
+}
+.buttonNH
+{
+background:url(../../images/pier16.png) !important;
+width:60px !important;
+height:65px !important;
+border:0px !important;
+}
+.buttonNH:hover
+{
+	background:url(../../images/pier162.png) !important;
+	width:65px !important;
+	height:70px !important;
+	cursor:pointer !important;
+}
+.buttonM
+{
+background:url(../../images/mip.png) !important;
+width:150px !important;
+height:70px !important;
+border:0px !important;
+}
+.buttonM:hover
+{
+	background:url(../../images/mip2.png) !important;
+	width:160px !important;
+	height:70px !important;
+	cursor:pointer !important;
+}
+.buttonS
+{
+background:url(../../images/ati.png) !important;
+width:120px !important;
+height:70px !important;
+border:0px !important;
+}
+.buttonS:hover
+{
+	background:url(../../images/ati2.png) !important;
+	width:130px !important;
+	height:70px !important;
+	cursor:pointer !important;
+}
+.buttonSP
+{
+background:url(../../images/subicport.png) !important;
+width:120px !important;
+height:70px !important;
+border:0px !important;
+}
+.buttonSP:hover
+{
+	background:url(../../images/subicport2.png) !important;
+	width:130px !important;
+	height:70px !important;
+	cursor:pointer !important;
+}
+
+.tblTime td
+{
+border-bottom: groove;	
+}
+#deltime {
+	min-width: 500px;
+	min-height: 450px;
+	margin-top: 150px;
+	padding: 20px 0 20px 0;
+	
+	
+	font-family: Calibri;
+	font-size: 11pt;
+	background-color: white;
+	background-image: url(../images/bgpopup.jpg);
+	border-radius: 6px;
+	display: none;
+	
+	-moz-box-shadow: 0 0px 15px 0px #FFF;
+	-webkit-box-shadow: 0 0px 15px 0px #FFF;
+	box-shadow: 0 0px 15px 0px #FFF;
+}
+
+		#deltime h1 {
+			font-size: 10.5pt;
+			font-weight: bold;
+			text-transform: uppercase;
+			text-align: left;
+			
+			width: 100%;
+			margin: 15px auto 0 auto;
+			padding-bottom: 3px;
+			border-bottom: 4px solid #454545;
+		}
+		
+		#deltime h2 {
+			font-size: 10.5pt;
+			font-weight: normal;
+			text-align: left;
+			padding-bottom: 3px;
+		}
+		
+		#deltime table {
+			width: 100%;
+			height: auto;
+		}
+			
+				#deltime table tr td {
+					width: 50%;
+					height: auto;
+					vertical-align: text-top;
+				 	padding: 0 20px 0 20px;
+				}
+			
+		#deltime input[type="text"], #deltime input[type="password"] {
+			width: 100%;
+			height: auto;
+			border: none;
+			outline: none;
+			border-bottom: 2px solid #E9E9E9;
+			background-color: rgba(255,255,255,0);
+			
+			font-family: Calibri;
+			font-size: 11pt;
+			text-align: left;
+			
+			-moz-transition: 0.35s ease 0s;
+			-webkit-transition: 0.35s ease 0s;
+			-o-transition: 0.35s ease 0s;
+		}
+		
+		/*#deltime input[name="fname"], input[name="mname"], input[name="lname"] {
+			text-transform: capitalize;
+		}*/
+		
+					#deltime input[type="text"]:focus, #deltime input[type="password"]:focus {
+						border-bottom: 2px solid #454545;
+
+						-moz-transition: 0.35s ease 0s;
+						-webkit-transition: 0.35s ease 0s;
+						-o-transition: 0.35s ease 0s;
+					}
+			
+					#deltime input[type="text"]:valid, #deltime input[type="password"]:valid {
+						border-bottom: 2px solid #454545;
+
+						-moz-transition: 0.35s ease 0s;
+						-webkit-transition: 0.35s ease 0s;
+						-o-transition: 0.35s ease 0s;
+					}
+
+		#deltime input[type="radio"] {
+			display: none;
+		}
+		
+		#deltime input[type="radio"] + label {
+			padding-left: 25px;
+			margin-right: 10px;
+			
+		    font-size: 11pt;
+			cursor: pointer;
+			background: url(../images/radioinactive.png) top left no-repeat;
+			
+			-moz-transition: 0.55s ease 0s;
+			-webkit-transition: 0.55s ease 0s;
+			-o-transition: 0.55s ease 0s;
+		}
+		
+					#deltime input[type="radio"]:checked + label {
+						background: url(../images/radioactive.png) top left no-repeat;
+						
+						-moz-transition: 0.55s ease 0s;
+						-webkit-transition: 0.55s ease 0s;
+						-o-transition: 0.55s ease 0s;
+					}
+					
+		#deltime input[type="submit"], #deltime input[type="button"] {
+			width: 50%;
+			height: auto;
+			border: none;
+			outline: none;
+			padding: 8px;
+			border-radius: 20px;
+			
+			font-family: Calibri;
+			font-size: 11pt;
+			background-color: #E9E9E9;
+			cursor: pointer;
+			
+			-moz-transition: 0.35s ease 0s;
+			-webkit-transition: 0.35s ease 0s;
+			-o-transition: 0.35s ease 0s;			
+		}
+		
+					#deltime input[value="CANCEL"] {
+						border-left: 1px solid #FFF;
+						border-top-left-radius: 0px;
+						border-bottom-left-radius: 0px;
+					}
+					
+					#deltime input[value="deltime"] {						
+						border-right: 1px solid #FFF;
+						border-top-right-radius: 0px;
+						border-bottom-right-radius: 0px;
+					}
+					
+					#deltime input[type="submit"]:hover, #deltime input[type="button"]:hover {
+						color: #CF3;
+						background-color: #454545;
+			
+						-moz-transition: 0.35s ease 0s;
+						-webkit-transition: 0.35s ease 0s;
+						-o-transition: 0.35s ease 0s;
+					}
+					
+.TimeButtons
+{
+	border-radius: 5px; 
+	height: 30px; 
+	background: white;
+	cursor: pointer;
+}
+.TimeButtons:hover
+{
+	border-radius: 5px; 
+	height: 30px; 
+	background: Black;
+	cursor: pointer;
+	color:#006633;
+	font-weight:bold;
+	border-color:black;
+}
